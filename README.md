@@ -1,6 +1,40 @@
 # C++ std::function, lambda, functor, function pointer
 
 {% tabs %}
+{% tab title="Function Pointer and Lambda" %}
+```clike
+#include <stdio.h>
+#include <vector>
+#include <iostream>
+#include <algorithm>
+
+using namespace std;
+
+bool f(int a, int b) {
+    return a > b;
+}
+
+int main()
+{
+    bool (*f1)(int, int);
+    f1 = &f;
+    printf("1 < 2 : %d\n", f1(1, 2));
+
+    std::vector<int> vec = {1, 3, 2};
+    // std::sort(vec.begin(), vec.end(), [](const int a, const int b) {
+    //     return a < b;
+    // });
+    std::sort(vec.begin(), vec.end(), f);
+    // std::sort(vec.begin(), vec.end(), f1);
+    for (const int e : vec) {
+        std::cout << e << " ";
+    }
+    std::cout << "\n";
+    return 0;
+}
+```
+{% endtab %}
+
 {% tab title="Functors, Lambda, Function Pointer" %}
 ```cpp
 #include <iostream>
