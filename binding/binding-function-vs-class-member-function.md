@@ -1,4 +1,4 @@
-# binding
+# binding function vs class member function
 
 ```cpp
 #include <iostream>
@@ -55,11 +55,12 @@ int main() {
   Foo foo1 = Execute(&CreateFoo, bar, /*multiplier=*/2);
   
   FooFactoryImpl impl;
-  auto f = std::bind_front(&FooFactory::CreateFoo, &impl, bar);
+  const FooFactory* foo_factory = &impl;
+  
+  auto f = std::bind_front(&FooFactory::CreateFoo, foo_factory, bar);
   f();
   
-  // Can not make below working without dynamic_cast<>. :(
-  Foo foo2 = Execute(&FooFactory::CreateFoo, dynamic_cast<const FooFactory*>(&impl), bar);
+  Foo foo2 = Execute(&FooFactory::CreateFoo, foo_factory, bar);
   
   return 0;
 }
