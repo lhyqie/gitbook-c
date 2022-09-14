@@ -14,4 +14,4 @@
 
 ## Binding
 
-* [binding](binding/binding.md)
+* [binding function vs class member function](binding/binding-function-vs-class-member-function.md)
