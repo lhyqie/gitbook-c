@@ -15,3 +15,7 @@
 ## Binding
 
 * [binding function vs class member function](binding/binding-function-vs-class-member-function.md)
+
+## std data structures
+
+* [std::tuple](std-data-structures/std-tuple.md)
