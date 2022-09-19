@@ -19,3 +19,5 @@
 ## std data structures
 
 * [std::tuple](std-data-structures/std-tuple.md)
+* [absl::optional vs std::unique\_ptr](std-data-structures/absl-optional-vs-std-unique\_ptr.md)
+* [C++ HashMap Choice](std-data-structures/c++-hashmap-choice.md)
