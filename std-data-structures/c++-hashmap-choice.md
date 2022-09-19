@@ -1,4 +1,4 @@
-# C++ HashMap Choice
+# HashMap Choice
 
 ## Tip of the Week #183: A Treasure of Maps
 
