@@ -1,5 +1,5 @@
 ---
-layout: landing
+layout: editorial
 ---
 
 # absl::optional vs std::unique\_ptr
