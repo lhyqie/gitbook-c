@@ -1,7 +1,3 @@
----
-layout: editorial
----
-
 # absl::optional vs std::unique\_ptr
 
 {% embed url="https://abseil.io/tips/123" %}

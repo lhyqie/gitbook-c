@@ -2,11 +2,11 @@
 
 ## Lambda  and Functor
 
-* [C++ std::function, lambda, functor, function pointer](README.md)
+* [std::function, lambda, functor, function pointer](README.md)
 
 ## Reference and Pointer
 
-* [C++ return pointer or reference of local variable](reference-and-pointer/c++-return-pointer-or-reference-of-local-variable.md)
+* [return pointer or reference of local variable](reference-and-pointer/c++-return-pointer-or-reference-of-local-variable.md)
 
 ## lvalue and rvalue
 
@@ -20,4 +20,4 @@
 
 * [std::tuple](std-data-structures/std-tuple.md)
 * [absl::optional vs std::unique\_ptr](std-data-structures/absl-optional-vs-std-unique\_ptr.md)
-* [C++ HashMap Choice](std-data-structures/c++-hashmap-choice.md)
+* [HashMap Choice](std-data-structures/hashmap-choice.md)
