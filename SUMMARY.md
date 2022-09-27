@@ -6,6 +6,7 @@
 * [Reference & Pointer](reference-and-pointer/README.md)
   * [return pointer or reference of local variable](reference-and-pointer/c++-return-pointer-or-reference-of-local-variable.md)
   * [lvalue vs rvalue](reference-and-pointer/lvalue-vs-rvalue.md)
+  * [Use auto for Reference and Pointer](reference-and-pointer/use-auto-for-reference-and-pointer.md)
 * [STD Data Structures](std-data-structures/README.md)
   * [std::tuple](std-data-structures/std-tuple.md)
   * [absl::optional vs std::unique\_ptr](std-data-structures/absl-optional-vs-std-unique\_ptr.md)
